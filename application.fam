@@ -1,0 +1,13 @@
+App(
+    appid="mode7_demo",
+    name="Mode 7 Demo Effect",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="mode7_demo_app",
+    stack_size=1 * 1024,
+    fap_category="Games",
+    fap_version="1.0",
+    fap_icon="mode7_demo.png",
+    fap_description="Classic demoscene effect",
+    fap_author="Dmitry Prikhodko",
+    fap_weburl="https://github.com/koshkokoshka/flipper-mode7-demo",
+)
